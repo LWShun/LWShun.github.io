@@ -1,13 +1,6 @@
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+Weishun Liu (刘为顺)
 ---
-#👋 I'm [Weishun Liu]
-
 I'm a first-year undergraduate student at the [University of Science and Technology of China](https://www.ustc.edu.cn/). My research interests include:
 - Computer Vision
 - Multimodal Machine Learning
