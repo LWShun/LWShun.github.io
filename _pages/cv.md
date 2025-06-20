@@ -11,54 +11,35 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2025 – 至今：硕士研究生，信息与通信工程  
+  * 中国科学技术大学
+* 2020 – 2024：本科，电子信息工程  
+  * 南京工业大学
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* <strong>基于强化学习的水厂泵房水泵组优化调度方法</strong>  
+  <em>2021.09 – 2023.03</em>（江苏省研究生科研与实践创新计划 No.SJCX21_0486）  
+  <em>项目角色：水厂部分参与人</em>
+ <strong>项目描述：</strong> 基于强化学习与工业物联网技术，构建水厂泵组智能调度系统，实现绿色水务。  
+ <strong>项目职责：</strong>  
+  &nbsp;&nbsp;&nbsp;&nbsp;针对传统调度依赖人工经验导致的能耗冗余问题，基于水厂管网压力、水泵特性曲线及电价峰谷等多维参数构建数字孪生模型，将水泵组的混合整数非线性规划问题转化为马尔可夫决策过程，以水厂能耗最小为优化目标。  针对前向城市管网用水量，设计 Attention-LSTM 融合网络实现 N 点用水量高精度预测（MAPE<5%），通过时序特征提取天气、节假日等 15 项影响因素，为强化学习提供动态环境感知。采用 Q-learning 架构应对高维动作空间挑战，定义包含实时流量、蓄水量、电价时段的状态空间及水泵启停组合动作空间，设计复合奖励函数同步优化能耗成本，结合经验回放优先采样与 ε-greedy 策略提升算法收敛效率。  借助 OPC UA 接口与 SCADA 系统实时交互，部署策略验证平台，确保调度指令秒级响应。
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 熟悉 PyTorch 深度学习框架
+* 强化学习方法与应用
+* 硬件开发与嵌入式系统设计
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<ul>
+  <li><strong>国家发明专利：</strong>《基于 Q-learning 的水厂泵房水泵组优化调度方法》<br> 专利号：202310189910.8，第一发明人</li>
+</ul>
+
+Honors and Awards
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* 南京工业大学 2024 届本科优秀毕业生（前 2%）
+* “卓越”荣誉学士学位（前 2%）
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
