@@ -11,35 +11,30 @@ redirect_from:
 
 Education
 ======
-* 2025 – 至今：硕士研究生，信息与通信工程  
-  * 中国科学技术大学
-* 2020 – 2024：本科，电子信息工程  
-  * 南京工业大学
+* 2025 – Present: Master's Degree, Information and Communication Engineering  
+  * University of Science and Technology of China (USTC)
+* 2020 – 2024: Bachelor's Degree, Electronic Information Engineering  
+  * Nanjing Tech University
 
 Work experience
 ======
-* <strong>基于强化学习的水厂泵房水泵组优化调度方法</strong>  
-  <em>2021.09 – 2023.03</em>（江苏省研究生科研与实践创新计划 No.SJCX21_0486）  
-  <em>项目角色：水厂部分参与人</em>
- <strong>项目描述：</strong> 基于强化学习与工业物联网技术，构建水厂泵组智能调度系统，实现绿色水务。  
- <strong>项目职责：</strong>  
-  &nbsp;&nbsp;&nbsp;&nbsp;针对传统调度依赖人工经验导致的能耗冗余问题，基于水厂管网压力、水泵特性曲线及电价峰谷等多维参数构建数字孪生模型，将水泵组的混合整数非线性规划问题转化为马尔可夫决策过程，以水厂能耗最小为优化目标。  针对前向城市管网用水量，设计 Attention-LSTM 融合网络实现 N 点用水量高精度预测（MAPE<5%），通过时序特征提取天气、节假日等 15 项影响因素，为强化学习提供动态环境感知。采用 Q-learning 架构应对高维动作空间挑战，定义包含实时流量、蓄水量、电价时段的状态空间及水泵启停组合动作空间，设计复合奖励函数同步优化能耗成本，结合经验回放优先采样与 ε-greedy 策略提升算法收敛效率。  借助 OPC UA 接口与 SCADA 系统实时交互，部署策略验证平台，确保调度指令秒级响应。
+* <strong>Optimal Scheduling Method for Water Plant Pump Station Pump Groups Based on Reinforcement Learning</strong>  
+  <em>2021.09 – 2023.03</em> (Jiangsu Postgraduate Research and Practice Innovation Program No.SJCX21_0486)  
+
   
 Skills
 ======
-* 熟悉 PyTorch 深度学习框架
-* 强化学习方法与应用
-* 硬件开发与嵌入式系统设计
+* Proficient in the PyTorch deep learning framework
+* Reinforcement learning methods and applications
+* Hardware development and embedded system design
 
 Publications
 ======
 <ul>
-  <li><strong>国家发明专利：</strong>《基于 Q-learning 的水厂泵房水泵组优化调度方法》<br> 专利号：202310189910.8，第一发明人</li>
+  <li><strong>National Invention Patent:</strong> "Optimal Scheduling Method for Water Plant Pump Station Pump Groups Based on Q-learning" <br> Patent Number: 202310189910.8, First Inventor</li>
 </ul>
 
 Honors and Awards
 ======
-* 南京工业大学 2024 届本科优秀毕业生（前 2%）
-* “卓越”荣誉学士学位（前 2%）
-  
-  
+* Outstanding Graduate of Nanjing Tech University, Class of 2024 (Top 2%)
+* "Excellent" Honors Bachelor's Degree (Top 2%)
