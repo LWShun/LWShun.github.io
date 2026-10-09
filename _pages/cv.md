@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * 2025 – Present: Master's Degree, Information and Communication Engineering  
-  * University of Science and Technology of China (USTC)
+  * University of Science and Technology of China (USTC), supervised by [Prof. Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/)
 * 2020 – 2024: Bachelor's Degree, Electronic Information Engineering  
   * Nanjing Tech University
 
@@ -30,9 +30,7 @@ Skills
 
 Publications
 ======
-<ul>
-  <li><strong>National Invention Patent:</strong> "Optimal Scheduling Method for Water Plant Pump Station Pump Groups Based on Q-learning" <br> Patent Number: 202310189910.8, First Inventor</li>
-</ul>
+* Publications will be added as they become available.
 
 Honors and Awards
 ======

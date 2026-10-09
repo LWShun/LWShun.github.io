@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "个人主页"
+title                    : "Weishun Liu"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Weishun Liu (刘为顺)"
+description              : &description "Academic homepage of Weishun Liu (刘为顺), USTC student."
 url                      : https://LWShun.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "LWShun/LWShun.github.io"
@@ -22,11 +22,11 @@ repository               : "LWShun/LWShun.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "WeishunLiu(刘为顺)"
+  avatar           : "profile.jpg"
+  name             : "Weishun Liu (刘为顺)"
   pronouns         : # example: "she/her"  
-  bio              : "USTCer"
-  location         : "Xuzhou,China"
+  bio              : "M.S. student in Information and Communication Engineering"
+  location         : "Xuzhou, China"
   employer         : "USTC"
   uri              : # URL
   email            : "lws.yoona@gmail.com" 
@@ -160,6 +160,7 @@ include:
   - _pages
   - files
 exclude:
+  - preview
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

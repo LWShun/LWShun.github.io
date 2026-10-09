@@ -1,0 +1,116 @@
+/* Simple academic homepage styling. Keep the typography close to the theme defaults. */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body.homepage {
+  background: #fff;
+  color: #111;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.homepage .masthead,
+.homepage .sidebar { display: none; }
+
+.homepage #main {
+  box-sizing: border-box;
+  width: min(100% - 48px, 900px);
+  max-width: 900px;
+  margin: 42px auto 56px;
+  padding: 0;
+}
+
+.homepage article.page {
+  float: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage .page__inner-wrap { width: 100%; }
+.homepage .page__inner-wrap > header { margin: 0 0 18px; }
+.homepage .page__title {
+  margin: 0;
+  color: #111;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -.02em;
+  line-height: 1.25;
+}
+
+.homepage .page__content {
+  color: #111;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.38;
+}
+
+.homepage .page__content p,
+.homepage .page__content li {
+  font-size: 14px;
+  line-height: 1.38;
+}
+
+.homepage .page__content p { margin: 0 0 14px; }
+.homepage .page__content a { color: #06c; text-decoration: none; }
+.homepage .page__content a:hover { text-decoration: underline; }
+
+.homepage .profile-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 34px;
+}
+
+.homepage .profile-intro__text { min-width: 0; }
+.homepage .profile-intro__photo {
+  display: block;
+  width: 132px;
+  height: 176px;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.homepage .profile-contact-links {
+  display: block;
+  margin-top: 15px !important;
+  color: #06c;
+  text-align: center;
+}
+
+.homepage .profile-contact-links a { white-space: nowrap; }
+
+.homepage .page__content h2 {
+  margin: 30px 0 8px;
+  padding: 0;
+  color: #111;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.homepage .page__content h2:first-child { margin-top: 0; }
+.homepage .page__content h3 { margin: 0 0 2px; color: #111; font-size: 14px; font-weight: 700; line-height: 1.4; }
+.homepage .section-rule { height: 1px; margin: 0 0 12px; background: #999; }
+.homepage .research-entry { margin: 0 0 16px; }
+.homepage .research-entry p { margin-bottom: 0; }
+.homepage .simple-list { margin: 0 0 4px; padding-left: 27px; }
+.homepage .simple-list li { margin-bottom: 4px; padding-left: 2px; }
+.homepage .award-list li { display: flex; justify-content: space-between; gap: 18px; }
+.homepage .award-list li span { white-space: nowrap; }
+.homepage .page__footer { border-top: 0; background: #fff; color: #777; }
+.homepage .page__footer footer { max-width: 900px; padding: 14px 0; font-size: 12px; }
+
+@media (max-width: 640px) {
+  .homepage #main { width: min(100% - 36px, 900px); margin-top: 28px; }
+  .homepage .page__title { font-size: 26px; }
+  .homepage .profile-intro { grid-template-columns: 1fr; gap: 16px; }
+  .homepage .profile-intro__photo { order: -1; width: 112px; height: 145px; margin: 0; }
+  .homepage .profile-contact-links { text-align: left; }
+  .homepage .award-list li { align-items: flex-start; }
+}
